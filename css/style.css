@@ -1,0 +1,237 @@
+/* ================================
+         common css start
+   ================================ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ================================
+         common css end
+   ================================ */
+/* ================================
+         typography css start
+   ================================ */
+.main-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #ffffff;
+}
+
+.card-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #121212;
+}
+
+.pragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.card-pragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.title {
+    text-align: center;
+}
+
+.title .sub-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.title .pragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #707070;
+    width: 692px;
+    margin: 0 auto;
+}
+
+.amount-tk {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #707070;
+
+}
+.input-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+/* ================================
+         typography css end
+   ================================ */
+/* ================================
+         buttons css start
+   ================================ */
+
+.donate-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    display: inline-block;
+}
+
+/* .subscribe-btn{
+
+} */
+
+/* ================================
+         buttons css end
+   ================================ */
+
+
+/* 
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Inter', sans-serif;
+
+font-family: 'Lobster', cursive; */
+
+/* ================================
+         banner css start
+   ================================ */
+
+#banner {
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+#banner .banner-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#banner .banner-main h1 {
+    width: 826px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-main p {
+    color: #ffffff;
+    width: 691px;
+}
+
+#banner .banner-main a {
+    margin-top: 30px;
+}
+
+/* ================================
+         banner css end
+   ================================ */
+/* ================================
+         donate-today css start
+   ================================ */
+#donate-today {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+#donate-today .amount-main .amount-list{
+    margin-top: 50px;
+    text-align: center;
+
+    
+}
+
+
+#donate-today .amount-main .amount-list ul li {
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px;
+    width: 135px;
+    height: 123px;
+    line-height: 4;
+    
+}
+
+#donate-today .amount-main .amount-list ul .active {
+    color: #FF5959;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+
+}
+
+#donate-today .amount-main .amount-list input {
+   width: 765px;
+   text-align: center;
+   border: none;
+   border-bottom: 1px solid#DADADA;
+   padding-bottom: 5px;
+   margin-top: 60px;
+}
+#donate-today .amount-main .amount-list button{
+    border: none;
+    margin-top: 45px;
+    cursor: pointer;
+}
+/* ================================
+         donate-today css end
+   ================================ */
