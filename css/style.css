@@ -109,6 +109,14 @@ p {
 
 }
 
+.blog-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #707070;
+}
+
 .input-text {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -156,8 +164,18 @@ p {
     color: #FFFFFF;
     background: #FF5959;
     border-radius: 5px;
-    padding: 16px 12px;
+    padding: 16px 15px;
     display: inline-block;
+}
+
+.blog-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FF5959;
+    display: inline-block;
+
 }
 
 .subscribe-btn {
@@ -216,7 +234,6 @@ p {
    ================================ */
 #donate-today {
     padding-top: 130px;
-    padding-bottom: 130px;
 }
 
 #donate-today .amount-main .amount-list {
@@ -265,7 +282,7 @@ p {
    ================================ */
 #donate-plan {
     padding-top: 130px;
-    padding-bottom: 130px;
+
 }
 
 #donate-plan .card-list {
@@ -320,6 +337,63 @@ p {
 /* ================================
          donate-plan css end
    ================================ */
+/* ================================
+         news-blogs css start
+   ================================ */
+#news-blogs {
+    padding-top: 130px;
+}
+
+#news-blogs .blogs-list {
+    margin-top: 50px;
+}
+
+#news-blogs .blogs-list .blogs {
+    background: #ffffff;
+    border: 2px solid #f5f5f5;
+    ;
+    width: 340px;
+
+}
+
+#news-blogs .blogs-list .blogs .blog-image {
+    width: 100%;
+    height: 200px;
+}
+
+#news-blogs .blogs-list .blogs .blog-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#news-blogs .blogs-list .blogs .blog-text {
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#news-blogs .blogs-list .blogs .blog-text span {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#news-blogs .blogs-list .blogs .blog-text h3 {
+    width: 280px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#news-blogs .blogs-list .blogs .blog-text p {
+    width: 280px;
+}
+
+#news-blogs .blogs-list .blogs .blog-text a {
+    margin-top: 20px;
+
+}
+
+/* ================================
+       news-blogs css end
+ ================================ */
 /* ================================
         get-updates css start
    ================================ */
