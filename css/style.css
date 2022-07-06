@@ -108,12 +108,37 @@ p {
     color: #707070;
 
 }
-.input-text{
+
+.input-text {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
     color: #B3B3B3;
+}
+
+.newletter-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #AA9F9F;
+}
+
+.footer-heading {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #FF5959;
+}
+
+.footer-pra {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 /* ================================
@@ -135,21 +160,21 @@ p {
     display: inline-block;
 }
 
-/* .subscribe-btn{
-
-} */
+.subscribe-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 16px 42px;
+}
 
 /* ================================
          buttons css end
    ================================ */
-
-
-/* 
-font-family: 'Poppins', sans-serif;
-
-font-family: 'Inter', sans-serif;
-
-font-family: 'Lobster', cursive; */
 
 /* ================================
          banner css start
@@ -193,13 +218,11 @@ font-family: 'Lobster', cursive; */
     padding-top: 130px;
     padding-bottom: 130px;
 }
-#donate-today .amount-main .amount-list{
+
+#donate-today .amount-main .amount-list {
     margin-top: 50px;
     text-align: center;
-
-    
 }
-
 
 #donate-today .amount-main .amount-list ul li {
     background: #FAFAFA;
@@ -209,7 +232,7 @@ font-family: 'Lobster', cursive; */
     width: 135px;
     height: 123px;
     line-height: 4;
-    
+
 }
 
 #donate-today .amount-main .amount-list ul .active {
@@ -220,18 +243,133 @@ font-family: 'Lobster', cursive; */
 }
 
 #donate-today .amount-main .amount-list input {
-   width: 765px;
-   text-align: center;
-   border: none;
-   border-bottom: 1px solid#DADADA;
-   padding-bottom: 5px;
-   margin-top: 60px;
+    width: 765px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid#DADADA;
+    padding-bottom: 5px;
+    margin-top: 60px;
 }
-#donate-today .amount-main .amount-list button{
+
+#donate-today .amount-main .amount-list button {
     border: none;
     margin-top: 45px;
     cursor: pointer;
 }
+
 /* ================================
          donate-today css end
+   ================================ */
+/* ================================
+         donate-plan css start
+   ================================ */
+#donate-plan {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#donate-plan .card-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#donate-plan .card-list .card {
+    width: 360px;
+    height: 352px;
+    background: rebeccapurple;
+    border-radius: 5px;
+}
+
+#donate-plan .card-list .paste {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#donate-plan .card-list .pink {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#donate-plan .card-list .yellow {
+    background: #FFF4D6;
+}
+
+#donate-plan .card-list .card .card-content {
+    padding-top: 60px;
+    padding-left: 23px;
+}
+
+#donate-plan .card-list .card .card-content .icon {
+    width: 53px;
+    height: 53px;
+}
+
+#donate-plan .card-list .card .card-content .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#donate-plan .card-list .card h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#donate-plan .card-list .card p {
+    width: 315px;
+}
+
+/* ================================
+         donate-plan css end
+   ================================ */
+/* ================================
+        get-updates css start
+   ================================ */
+#get-updates {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#get-updates .updates-content {
+    display: flex;
+    justify-content: center;
+}
+
+#get-updates .Newsletter {
+    background: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 210px;
+    margin-top: 50px;
+}
+
+#get-updates .Newsletter input {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 14px 17px;
+}
+
+#get-updates button {
+    margin-left: -4px;
+}
+
+/* ================================
+         get-updates css end
+   ================================ */
+/* ================================
+         footer css start
+   ================================ */
+footer {
+    text-align: center;
+    background: #0B0D17;
+    padding: 42px 0;
+}
+
+footer h2 {
+    margin-bottom: 24px;
+}
+
+/* ================================
+         footer css end
    ================================ */
